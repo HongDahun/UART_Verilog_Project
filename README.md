@@ -29,7 +29,7 @@
 * **Test Scenario:** Sent character 'A' (0x41) → FPGA Rx → Internal Buffer → FPGA Tx → Received 'A'.
 * **Result:** The Tx output waveform matches the Rx input waveform with expected processing delay.
 
-![Loopback Waveform](./uart_final_wave.png)
+![Loopback Waveform](./uart_final_wave.png.png)
 
 ## 4. Problem Solving (Troubleshooting)
 > **Challenge:** During the Rx module simulation, the `dout` (output) remained `0` even though the internal shift register correctly received the data (0x37).
