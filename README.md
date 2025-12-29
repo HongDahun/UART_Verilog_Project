@@ -39,9 +39,4 @@
 * **Outcome:** The output correctly updated to `0x37` upon the `rx_done` signal, confirming the fix.
 
 ## 5. Directory Structure
-├── top_uart_loopback.v # Top Module (Entire System) 
-├── uart_rx.v # Receiver Module 
-├── uart_tx.v # Transmitter Module 
-├── baud_gen.v # Baud Rate Generator (If separate) 
-├── tb_uart_loopback.v # Testbench file 
-└── uart_final_wave.png # Simulation Result Image
+├── top_uart_loopback.v # Top Module (Entire System) ├── uart_rx.v # Receiver Module ├── uart_tx.v # Transmitter Module ├── baud_gen.v # Baud Rate Generator (If separate) ├── tb_uart_loopback.v # Testbench file └── uart_final_wave.png # Simulation Result Image
